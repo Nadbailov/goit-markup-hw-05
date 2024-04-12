@@ -506,7 +506,7 @@ gap: 24px;
 
 }
 
-.footer-modal-check {
+.footer-check {
     width: 264px;
         height: 40px;
         border-radius: 4px;
@@ -514,33 +514,39 @@ gap: 24px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
 padding-left: 16px;
+color: #ffffff;
+font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 2;
     }
 
-    .footer-modal-check::placeholder {
-        font-size: 12px;
-        letter-spacing: 0.04em;
+    .footer-check::placeholder {
         color: #fff;
     }
 
 .footer-modal-btn {
     display: flex;
         align-items: center;
-        /* justify-content: center;
-        flex-direction: row; */
-        gap: 16px;
+        justify-content: center;
+        min-width: 165px;
+        height: 40px;
+        font-family: "Roboto", sans-serif;
 
-        background: #4d5ae5;
+        background-color: #4D5AE5;
         border-radius: 4px;
-            padding: 8px 24px;
+            /* padding: 8px 24px; */
             border: none;
 
             font-weight: 500;
                 font-size: 16px;
                 letter-spacing: 0.04em;
+                line-height: 1.5;
                 color: #fff;
+                cursor: pointer;
 }
 
 .footer-btn-icon {
     fill: #fff;
+    margin-left: 16px;
 }
 
