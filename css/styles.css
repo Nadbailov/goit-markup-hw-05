@@ -513,13 +513,13 @@ gap: 24px;
         border: 1px solid #fff;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
+padding-left: 16px;
     }
 
     .footer-modal-check::placeholder {
         font-size: 12px;
         letter-spacing: 0.04em;
         color: #fff;
-        padding-left: 16px;
     }
 
 .footer-modal-btn {
