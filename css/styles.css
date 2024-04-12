@@ -503,7 +503,9 @@ background-color: #31d0aa;
 .modal-check {
 display: flex;
 gap: 24px;
+}
 
+.footer-label {
 }
 
 .footer-check {
