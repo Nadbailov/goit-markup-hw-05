@@ -415,7 +415,7 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form action="">
+        <form class="modal-form">
           <div class="modal-form">
             <label for="user-name" class="modal-label"> Name </label>
             <div class="modal-wrap">
@@ -443,10 +443,11 @@
               </svg>
             </div>
           </div>
-        </form>
-        <form class="modal-form">
-          <label for="user-comment" class="modal-label">Comment</label>
-          <input type="text" class="modal-input" name="user-comment" id="user-comment" />
+
+          <div class="modal-commemt">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea type="text" class="modal-area" name="user-comment" id="user-comment" placeholder="Text input" />
+          </div>
         </form>
       </div>
     </div>
