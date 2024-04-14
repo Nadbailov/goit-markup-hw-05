@@ -721,9 +721,10 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
+margin-right: 8px;
 }
 
-.modal-field-input:checked {
+.modal-field-input:checked + .modal-field-span {
   background-color: #404bbf;
 border: none;
 fill: #F4F4FD;  
