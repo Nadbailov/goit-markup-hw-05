@@ -724,7 +724,7 @@ fill: transparent;
 margin-right: 8px;
 }
 
-.modal-field-input:checked + .modal-field-span .modal-field-label {
+.modal-field-input:checked + .modal-field-label .modal-field-span  {
   background-color: #404bbf;
 border: none;
 fill: #F4F4FD;  
